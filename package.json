@@ -1,0 +1,22 @@
+{
+  "author": "Bret K. Ikehara",
+  "license": "BSD",
+  "name": "less-compile-plugin",
+  "version": "1.0.0",
+  "description": "This code should be executed before the shifter tool compiles the module.",
+  "bin": {
+    "less-compile": "bin/less-compile.js"
+  },
+  "main" : "./lib/index.js",
+  "scripts": {
+    "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/"
+  },
+  "dependencies": {
+    "path" : "*",
+    "less" : "*",
+    "vows" : "*",
+    "assert" : "*",
+    "yui-lint": "~0.1.1"
+  },
+  "preferGlobal": "true"
+}
