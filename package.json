@@ -18,5 +18,16 @@
     "assert" : "*",
     "yui-lint": "~0.1.1"
   },
-  "preferGlobal": "true"
+  "preferGlobal": "true",
+  "bugs": { "url" : "https://github.com/bretkikehara/less-compiler-plugin/issues" },
+  "licenses":[
+      {
+          "type" : "BSD",
+          "url" : "https://raw.github.com/bretkikehara/less-compiler-plugin/master/LICENSE.txt"
+      }
+  ],
+  "repository": {
+      "type":"git",
+      "url":"https://github.com/bretkikehara/less-compiler-plugin.git"
+  }
 }
