@@ -11,12 +11,11 @@ This is used in conjunction with the YUI shifter tool.
 
 > make
 
-### How to install
-Run this command in the project directory:
+### How to install from npm
 
-> make install
+npm install -g less-compile-plugin
 
-To do an install without make, run:
+### How to install from source
 
 > npm install -g .
 
